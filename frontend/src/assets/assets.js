@@ -6,6 +6,13 @@ const assets = [
     discription: 'It is doctor appointment booking website with robust authentication, autherization and Payment gateway integration'
   },
   {
+    name: 'My-Portfolio',
+    image: '/my.png',
+    link: 'https://my-portfolio-gamma-nine-60.vercel.app/',
+    discription: 'This website showcases my skills, projects, and experiences as a passionate Full Stack Developer. Built with modern tools and a clean design, it is a glimpse into what I love building every day.'
+
+  },
+  {
     name: "Amazon Clone",
     image: '/amazon.png',
     link: 'https://indrajeet1705.github.io/The-Amazon-Project/',
