@@ -11,9 +11,11 @@ const Home = () => {
         {/* Text Section */}
         <div className="max-w-xl text-center md:text-left p-6">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-snug">
-            Full Stack Developer specializing in building <br />
-            end-to-end web applications <br />
-            using the <span className="text-blue-800">MERN stack.</span>
+            Hi ,<br />I am Indrajeet
+          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-snug">
+            A Full Stack Developer specializing in building <br />
+            end-to-end web applications.
           </h1>
         </div>
 

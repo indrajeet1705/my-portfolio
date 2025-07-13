@@ -7,7 +7,7 @@ const assets = [
   },
   {
     name: 'My-Portfolio',
-    image: '/my.png',
+    image: '/port.png',
     link: 'https://my-portfolio-gamma-nine-60.vercel.app/',
     discription: 'This website showcases my skills, projects, and experiences as a passionate Full Stack Developer. Built with modern tools and a clean design, it is a glimpse into what I love building every day.'
 
