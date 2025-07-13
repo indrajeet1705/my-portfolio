@@ -20,11 +20,11 @@ const Home = () => {
         </div>
 
         {/* Profile Image */}
-        <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-xl shadow-blue-400 transition-transform transform hover:scale-105 duration-500">
+        <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-xl shadow-blue-400 transition-transform transform hover:scale-105 duration-500 hidden md:block">
           <img
             src="/profile.jpg"
             alt="Profile"
-            className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+            className="  w-full h-full object-cover transition-transform duration-700 hover:scale-110"
           />
         </div>
       </div>
