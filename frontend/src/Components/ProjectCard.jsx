@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ item }) => {
   return (
-    <div className="w-[400px] h-[500px] rounded-2xl shadow-xl shadow-blue-400  bg-white overflow-hidden flex flex-col transition-transform duration-500 transform hover:scale-105">
+    <div className="md:w-[400px] md:h-[500px] w-[300px] h-[400px] rounded-2xl shadow-xl shadow-blue-400  bg-white overflow-hidden flex flex-col transition-transform duration-500 transform hover:scale-105">
       <div className="h-[300px] overflow-hidden">
         <img
           src={item.image}

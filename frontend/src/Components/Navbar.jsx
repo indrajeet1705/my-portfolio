@@ -40,22 +40,27 @@ const Navbar = () => {
               href="#connect"
               className="hover:text-black transition-colors duration-300"
             >
-              Connect
+              Contact
             </a>
           </li>
         </ul>
       </nav>
-      <div className=" flex w-full h-[50px]  justify-end items-center ">
+      <div className=" flex w-full border h-[50px] md:hidden  justify-between px-4 items-center ">
+        <img src="/logo.jpg" className="w-[40px] h-[40px] rounded-full" alt="" />
         <IoMenu onClick={()=>setToggleMenue(prev=>!prev)} size='40px' color="blue" />
       </div>
       {
         toggelMenue ? <>
-        <div className=" w-full h-[200px] bg-slate-200 fixed transition-all duration-500  ">
+        <div className=" w-full h-[200px] bg-slate-200  transition-all fixed z-40 duration-500  ">
           <ul className=" flex flex-col items-center gap-5 p-4 text-lg font-semibold text-slate-600 ">
-            <li className="hover:text-blue-400">Home</li>
-            <li className=" hover:text-blue-400 transition-all duration-150">Projects</li>
-            <li className=" hover:text-blue-400 transition-all duration-150">Skills</li>
-            <li className=" hover:text-blue-400 transition-all duration-150">Contact</li>
+            <li className="hover:text-blue-400 "><a onClick={()=>setToggleMenue(prev=>!prev)} href="#home">Home</a></li>
+            <li className=" hover:text-blue-400"><a onClick={()=>setToggleMenue(prev=>!prev)} href="#projects">Projects</a></li>
+           <li className=" hover:text-blue-400 "><a 
+            onClick={()=>setToggleMenue(prev=>!prev)}
+            href="#skills">Skills</a></li>
+            <li className=" hover:text-blue-400 "><a
+            onClick={()=>setToggleMenue(prev=>!prev)} 
+            href="#connect">Contact</a></li>
           </ul>
         </div>
         </>:''
