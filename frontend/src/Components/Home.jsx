@@ -7,13 +7,13 @@ const Home = () => {
       <div className="h-[10vh] w-full" />
 
       {/* Main Content */}
-      <div className="flex flex-wrap justify-evenly items-center h-[90vh] px-6 md:px-16">
+      <div className="flex flex-wrap justify-evenly items-center md:h-[90vh] px-4 md:px-16">
         {/* Text Section */}
         <div className="max-w-xl text-center md:text-left p-6">
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-snug">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-600 text-start leading-snug">
             Hi ,<br />I am Indrajeet
           </h1>
-          <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-snug">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-600 text-start leading-snug">
             A Full Stack Developer specializing in building <br />
             end-to-end web applications.
           </h1>
