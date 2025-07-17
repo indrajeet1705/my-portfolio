@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className=" flex w-full border fixed h-[50px] md:hidden  justify-between px-4 items-center ">
+      <div className=" flex w-full border bg-white z-40 fixed h-[50px] md:hidden  justify-between px-4 items-center ">
         <img src="/logo.jpg" className="w-[40px] h-[40px] rounded-full" alt="" />
         <IoMenu onClick={()=>setToggleMenue(prev=>!prev)} size='40px' color="blue" />
       </div>
