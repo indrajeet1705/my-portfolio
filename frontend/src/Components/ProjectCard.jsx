@@ -2,12 +2,14 @@ import React from "react";
 
 const ProjectCard = ({ item }) => {
   return (
-    <div className="md:w-[400px] md:h-[500px] w-[300px] h-[400px] rounded-2xl shadow-xl shadow-blue-400  bg-white overflow-hidden flex flex-col transition-transform duration-500 transform hover:scale-105">
-      <div className="h-[300px] overflow-hidden">
+    <div className="md:w-[350px] md:h-[450px] w-[300px] h-[400px] rounded-2xl shadow-xl shadow-blue-700  bg-white overflow-hidden flex flex-col transition-transform duration-500 transform hover:scale-105 ">
+      <div className="h-[300px] overflow-hidden  ">
         <img
           src={item.image}
           alt={item.name}
-          className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+          className="w-full h-full object-cover transition-transform 
+          
+          duration-700 hover:scale-110"
         />
       </div>
 
@@ -18,7 +20,7 @@ const ProjectCard = ({ item }) => {
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="underline hover:text-purple-500 transition"
+            className=" hover:text-purple-500 transition"
           >
             View Project
           </a>

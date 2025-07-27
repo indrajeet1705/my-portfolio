@@ -20,7 +20,7 @@ export default {
       animation: {
         scroll: ' scroll 20s linear infinite',
         wiggle: 'wiggle 1s ease-in-out infinite',
-        'scroll-pause': 'scroll 20s linear infinite paused',
+        'scroll-pause': 'scroll 30s linear infinite paused',
       },
     },
   },

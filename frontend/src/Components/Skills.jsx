@@ -20,7 +20,8 @@ const Skills = () => {
           <img
             src="/css.webp"
             alt="CSS"
-            className="h-20 w-20 object-cover rounded-full"
+            className="h-20 w-20 object-cover  
+             rounded-full"
           />
           <img
             src="/jslogo.jpg"

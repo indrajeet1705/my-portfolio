@@ -10,11 +10,12 @@ import EmailForm from "./Components/EmailForm";
 const App = () => {
   return (
     <>
-      <div className=" w-full h-screen ">
+      <div className=" w-full h-screen  ">
         <Navbar></Navbar>
         <div className="">
           {" "}
           <Home></Home>
+          <About/>
           <Projects></Projects>
           <Skills></Skills>
           <Connect></Connect>

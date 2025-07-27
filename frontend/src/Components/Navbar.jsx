@@ -6,7 +6,7 @@ const Navbar = () => {
   console.log(toggelMenue)
   return (
     <>
-      <nav className="w-full hidden md:flex fixed top-0 z-40  justify-center">
+      <nav  className="w-full  hidden md:flex fixed top-0 z-40  justify-center">
         <ul
           className="bg-blue-500 text-white font-semibold flex gap-8 px-8 py-3 mt-2 rounded-2xl shadow-lg backdrop-blur-md bg-opacity-90"
           aria-label="Main navigation"
@@ -45,8 +45,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className=" flex w-full border h-[50px] md:hidden  justify-between px-4 items-center ">
-        <img src="/logo.jpg" className="w-[40px] h-[40px] rounded-full" alt="" />
+      <div className=" flex  w-full border h-[50px] md:hidden  justify-between px-4 items-center ">
+        {/* <img src="/logo.jpg" className="w-[40px] h-[40px] rounded-full" alt="" /> */}
         <IoMenu onClick={()=>setToggleMenue(prev=>!prev)} size='40px' color="blue" />
       </div>
       {
