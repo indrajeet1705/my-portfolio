@@ -6,6 +6,12 @@ const assets = [
     discription: 'It is doctor appointment booking website with robust authentication, autherization and Payment gateway integration'
   },
   {
+      name : 'ChatApp',
+      image:'/chat.jpg',
+      link:'https://github.com/indrajeet1705/Chat.git',
+      discription:'A simple real-time chat application built using the MERN Stack (MongoDB, Express, React, Node.js) and Socket.IO for WebSocket-based communication.'
+  },
+  {
     name: 'My-Portfolio',
     image: '/port.png',
     link: 'https://my-portfolio-gamma-nine-60.vercel.app/',
